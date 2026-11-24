@@ -1,5 +1,6 @@
 
     deployment:
     tasks:
-     - export DEPLOYPATH=/home/encale/public_html/oglasnik
+     - export DEPLOYPATH=/home/encale/public_html/solski_oglasnik
      - /bin/cp -R * $DEPLOYPATH
+
