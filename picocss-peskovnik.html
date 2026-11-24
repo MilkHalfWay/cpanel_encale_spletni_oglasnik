@@ -20,6 +20,7 @@
 
     <!-- UPORABA PICO.CSS container: class="grid" za elemente v stolpcih -->
     <div class="grid">
+      <input type="number" placeholder="Vpiši ceno">
       <input type="text" placeholder="Vpiši testno besedilo...">
       <select>
         <option>Izbira 1</option>
@@ -27,7 +28,7 @@
       </select>
       <button>Navaden gumb</button>
     </div>
-
+ 
    <!-- Z uporabo PICO.CSS Navadna HTML tabela dobi sodoben videz -->
    <h3>Preizkus tabele in gumbov za akcije</h3>
     <table>
@@ -48,8 +49,21 @@
             <a href="#" role="button" class="contrast">Uredi</a>
           </td>
         </tr>
+        <tr>
+          <td>Računalniška miška</td>
+          <td>10,00 €</td>
+          <td>
+            <!-- 5. PRAVILO: role="button" spremeni povezavo v gumb -->
+            <a href="#" role="button" class="secondary">Pogled</a>
+            <a href="#" role="button" class="contrast">Uredi</a>
+          </td>
+        </tr>   
       </tbody>
-    </table>
+    </table>  
+    <form class="grid">
+      <input type="email" placeholder="Tvoj e-naslov" required>
+      <button type="submit">Prijavi me</button>
+    </form>
   </main>
 </body>
 
